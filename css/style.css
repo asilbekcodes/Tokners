@@ -57,9 +57,16 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    color: #22A75D;
+}
+.button:hover{
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    a{
+        color: #fff;
+    }
 }
 .button1{
-    background-color:#22A75D;
     width: 146px;
     height: 45px;
     display: flex;
@@ -69,6 +76,10 @@ body{
     background: #22A75D;
     box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
     border-radius: 52px;
+}
+.button1:hover{
+    background: inherit;
+    border: 2px solid #22A75D;
 }
 
 .hijo1{
@@ -91,7 +102,8 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 
 .hijo1s2{
@@ -223,11 +235,6 @@ body{
 }
 
 
-.toggle-menu-check{
-    /* display: none; */
-}
-
-
 .hijo4{
     width: 100%;
     display: flex;	
@@ -254,12 +261,13 @@ body{
 }
 .text1q1{
     display: flex;
+    align-items: center;
     margin: 0 0 0 29px;
     align-items: baseline;
     height: 40px;
+    gap: 15px;
 }
 .text1q1 p{
-    margin-left: 15px;
     color: gray;
 }
 .contq2{
@@ -279,7 +287,7 @@ body{
 }
 .textq2 p{
     color: gray;
-    margin: 17px 15px;
+    margin: 20px 15px;
 }
 
 .contq3{
@@ -414,7 +422,7 @@ body{
     width: 100%;
 }
 
-.hijo7{
+footer{
     color: white;
     width: 100%;
     background-image: url(../assets/img/back2.png);
@@ -440,29 +448,27 @@ body{
     color: gray;
 }
 .menu_2 a{
-    
+    text-decoration: none;
     color: white;
 }
+.menu_2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
 .menu_2 li{
-    width: 110px;
+    /* width: 110px; */
     list-style: none;
 }
 .menu_2{
     display: flex;
 }
 .menu2{
-    margin: 147px 0px 0 336px;
-    padding-bottom: 100px;
-}
-.izq{
-    /*margin-left: 80px;*/
+    padding: 100px 0 100px 0;
 }
 .contcirc1{
     position: absolute;
     margin: 110px 418px 0 0px;
-}
-.der{
-    /*margin-right: 100px;*/
 }
 .contcirc2{
     position: absolute;
@@ -470,19 +476,21 @@ body{
 }
 .contact{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 10%;
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .contact ul li{
     list-style: none;
     width: 70px;
 }
 .contact ul{
-    display: flex;
-    justify-content: space-between;
-    
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
 }
 .contlogo1{
     margin-left: 30px;
@@ -551,13 +559,13 @@ body{
 		flex-wrap: wrap;
 	}
 	.conthijo2s1{
-		width: 323px;
+		width: 450px;
 		margin: 0 25px 0 25px;
 		height: auto;
 		padding-bottom: 28px;
 	}
 	.conthijo2s2{
-		width: 323px;
+		width: 450px;
 		margin: 0 25px 0 25px;
 		height: auto;	
 		padding-bottom: 28px;	
@@ -574,23 +582,107 @@ body{
 	}
 	.contq1{
 		padding: 60px 0px 0 40px;
+        width: 450px ;
 	}
 	.contq2{
 		padding: 60px 0px 0 40px;
+        width: 450px ;
 	}
 	.contq3{
 		padding: 60px 0px 0 40px;
+        width: 450px ;
 	}
 	.contq4{
 		padding: 60px 0px 0 40px;
+        width: 450px ;
 	}
 	.fighijo4{
 		display: none;
 	}
-	.conttexto{
-		width: 250px;
-	}
 	.figura1{
 		transform: scaleX(-1);
 	}
+    .hijo5{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .conttext5{
+        width: 350px;
+		margin: 0 25px 0 25px;
+		height: auto;
+		padding-bottom: 28px;
+        padding: 0 !important;
+    }
+    .contimghijo5{
+		width: 350px;
+		margin: 25px;
+		height: 300px;	
+        padding: 25px 0;
+    }
+    .imghijo5{
+        /* position: absolute; */
+        left: 120px;
+    }
+    .hijo6{
+        height: max-content;
+        padding: 0;
+    }
+    .conthijo6{
+        width: 350px;
+        display: block;
+		margin: 0 25px;
+    }
+    .cuadro{
+        width: 310px;
+        margin: 30px 0;
+    }
+    footer{
+        background-image: none;
+        width: 350px;
+		margin: 0 25px;
+
+    }
+    /* .hijo7{
+        width: 350px;
+		margin: 0 25px;
+    } */
+    .conthijo7{
+        display: block;
+    }
+    .cuadro7{
+        width: 250px;
+        margin: 20px 0;
+        padding: 25px 50px;
+    }
+    .contcirc1{
+        display: none;
+    }
+    .contcirc2{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .contact{
+        width: 350px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+
+    }
+    .conticonos ul {
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        margin: 20px 0;
+        padding: 0 0 0 25px;
+    }
+    .conticonos{
+        margin: 0 auto;
+    }
+    .contlogo1{
+        margin: 0 auto;
+    }
+    .hijo7f{
+        margin: 0 auto;
+        padding: 0 20px ;
+    }
 }
