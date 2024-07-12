@@ -3,7 +3,7 @@ body{
     /*font-family: 'Didact Gothic', sans-serif;*/
     font-family: 'Poppins', sans-serif;
     background-color:#0F1320;
-    background-image: url(bg.png);
+    background-image: url(../assets/img/bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -237,7 +237,7 @@ body{
 .q1{
     display: flex;
     align-items: center;
-    background-image: url(figq1.png) ;
+    background-image: url(../assets/img/figq1.png) ;
     padding: 70px 0 0 50px;
     width: 91px;
     height: 60px;
@@ -361,7 +361,7 @@ body{
 }
 
 .hijo6{
-    background-image: url(hijo6.png);
+    background-image: url(../assets/img/hijo6.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -417,7 +417,7 @@ body{
 .hijo7{
     color: white;
     width: 100%;
-    background-image: url(back2.png);
+    background-image: url(../assets/img/back2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top:0;
