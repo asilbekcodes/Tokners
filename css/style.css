@@ -504,8 +504,8 @@ footer{
 
 
 
-
-@media (max-width: 600px){ /*-------------------------------------Estilos responsive--------------------------------------*/
+/* --- Estilos responsive --- */
+@media (max-width: 600px){ 
 	.menucel{
 		display:block;
 		padding-left: 40px;
