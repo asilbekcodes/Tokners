@@ -18,14 +18,14 @@
 				<form action="#" class="sign-in-form">
 					<h2 class="title">Sign in</h2>
 					<div class="input-field">
-						<i class="fas fa-user"></i>
-						<input type="text" placeholder="Username" />
+						<i class="fas fa-envelope"></i>
+						<input id="email" type="email" placeholder="Email" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
-						<input type="password" placeholder="Password" />
+						<input	id="password" type="password" placeholder="Password" />
 					</div>
-					<input type="submit" value="Login" class="btn solid" />
+					<input id="submit-btn" type="submit" value="Login" class="btn solid" />
 					<p class="social-text">Or Sign in with social platforms</p>
 					<div class="social-media">
 						<a href="#" class="social-icon">
@@ -46,17 +46,17 @@
 					<h2 class="title">Sign up</h2>
 					<div class="input-field">
 						<i class="fas fa-user"></i>
-						<input type="text" placeholder="Username" />
+						<input id="username-2"  type="text" placeholder="Username" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-envelope"></i>
-						<input type="email" placeholder="Email" />
+						<input id="email-2" type="email" placeholder="Email" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
-						<input type="password" placeholder="Password" />
+						<input id="password" type="password" placeholder="Password" />
 					</div>
-					<input type="submit" class="btn" value="Sign up" />
+					<input id="submit-btn-2" type="submit" class="btn" value="Sign up" />
 					<p class="social-text">Or Sign up with social platforms</p>
 					<div class="social-media">
 						<a href="#" class="social-icon">
@@ -105,7 +105,7 @@
 			</div>
 		</div>
 	</div>
-
+	<script type="module" src="javascript/firebase.js"></script>
 	<script src="javascript/script.js"></script>
 </body>
 
